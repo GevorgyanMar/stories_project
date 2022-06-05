@@ -1,0 +1,39 @@
+.filters-behavior-wrapper {
+  padding-top: 25px;
+  h2 {
+    color: #4378c4;
+    font-size: 25px;
+  }
+  .filters-reset-btn-block {
+    display: flex;
+    margin-top: 15px;
+    .filters-reset-btn {
+      max-width: 140px;
+      &:last-child {
+        margin-left: 15px;
+      }
+      button {
+        background-color: #ffffff;
+        border: 1px solid #f7f7f77e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+        &:hover {
+          background-color: #eeeeee;
+        }
+        img {
+          width: 24px;
+          height: 24px;
+        }
+        p {
+          font-size: 16px;
+          color: black;
+          font-weight: 600;
+          text-transform: capitalize;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
